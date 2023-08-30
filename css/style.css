@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_navegacao {
+    display: flex;
+    justify-content: space-around;
+    background-color: #DEEAB9;
+    align-items: center;
+    height: 115px;
+
+}
+
+ul , li {
+    display: inline-block;
+    margin-left: 24px;
+    font-family: Lato;
+    cursor: pointer;
+}
+
+.logo {
+    width: 96px;
+    height: 96px;
+}
+
+.conteudo_principal {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+h1, h2, h3 {
+    font-family: Lato;
+}
+
+h1 {
+    color:#006633
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    background-color: #006633;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0px 8px;
+    color: white;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+.thumb_videos {
+    display: flex;
+    justify-content: center;
+}
+
+.videos {
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.titulo_videos {
+    margin-left: 425px;
+    margin-bottom: 30px;
+    color: #4fa7b0;
+    font-size: x-large;
+}
+
+.siga_nos {
+    margin-left: 425px;
+    margin-top: 30px;
+    color: #4fa7b0;
+    font-weight: 600;
+}
+
+.redes_sociais {
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.page_floor {
+    display: flex;
+    justify-content: space-around;
+    background-color: #006633;
+    height: 100px;
+    align-items: center;
+}
+
+.bottom_h3 {
+    color: white;
+    font-weight: 400;
+    font-size: small;
+}
